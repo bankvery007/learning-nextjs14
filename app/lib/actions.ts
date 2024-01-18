@@ -5,7 +5,7 @@ import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
 import { AuthError } from 'next-auth';
-import { signIn } from '../auth';
+import { signIn } from '../../auth';
 
 export type State = {
   errors?: {
